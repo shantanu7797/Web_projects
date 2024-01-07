@@ -1,0 +1,349 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+}
+
+.main{
+    height: 644px;
+    min-width: 330px;
+    min-height: 444px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1200px,100vw);
+    background-image: url(assets/images/n1.jpg);
+    position: relative;
+}
+.main .box0{
+    width: 100%;
+    height:644px; 
+    opacity: 0.65;
+    position: absolute;
+    top: 0;
+    background-color: black;
+}
+.header{
+    /* background-color: black; */
+    display: flex;
+    justify-content: space-between;
+    max-width: 90vw;
+    align-items: center;
+    margin: auto;
+    height: 80px;
+      
+}
+.header img{
+    width: 130px;
+    position: relative;
+    z-index: 10;
+}
+.headerbtn{
+    z-index: 10;
+}
+.btn1{
+    padding: 4px 19px;
+    border-radius: 5px;
+    border: 1px solid white;
+    background-color: black;
+    color: white;
+}
+.btn2{
+    border-radius: 5px;
+    padding: 6px 10px;
+    background-color: red;
+    color: white;
+    border: none;
+}
+
+.headtext{
+    display: flex;
+    flex-direction: column;
+    height: calc(100% - 80px);
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bolder;
+    position: relative;
+    gap: 20px;
+    padding: 0 23px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.headtext> :nth-child(1){
+    font-size: 55px;
+    text-align: center;
+}
+.headtext> :nth-child(2){
+    font-size: 27px;
+    text-align: center;
+    font-weight:600;
+}
+.headtext> :nth-child(3){
+    font-size: 23px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.headtext> div{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     gap: 10px;
+    
+}
+.headtext> div> input{
+    background-color: black;
+    border: 1px solid gray;
+    border-radius: 3px;
+    font-size: 18px;
+    color: rgb(204, 191, 191);
+    padding: 13px 40px 13px 10px;
+    width: 230px;
+}
+.headtext> div> button{
+    background-color: red;
+    border-radius: 4px;
+    border: none;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+}
+.separation{
+    height: 8px;
+    position: relative;
+    background-color: rgb(56, 56, 56);
+    z-index: 20;
+}
+
+
+.first{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    max-width: 91vw;
+    margin: auto;
+    color: white;
+    align-items: center;
+}
+.first >div{
+    display: flex;
+    flex-direction: column;
+}
+.first01{
+    font-size: 55px;
+    font-weight: bolder;
+}
+.first02{
+    margin-top: 10px;
+    font-size: 20px;
+}
+.image1{
+    position: relative;
+}
+.image1 img{
+    position: relative;
+    width: 520px;
+    z-index: 10;
+}
+.image1 video{
+    top: 61px;
+    right: 7px;
+    width: 450px;
+    position: absolute;
+
+}
+.second{
+    padding-bottom: 40px;
+    max-width: 80vw;
+}
+.third{
+    padding-bottom: 40px;
+}
+.image3{
+    position: relative;
+    width: 520px;
+}
+.image3 img{
+    position: relative;
+    z-index: 10;
+}
+.image3 video{
+    top: 45px;
+    right: 32px;
+    width: 450px;
+    height: 180px;
+    position: absolute;
+}
+.forth{
+    padding-bottom: 40px;
+}
+.fifth{
+    max-width: 91vw;
+    margin: auto;
+    color: white;
+}
+.faq{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    margin: 20px 0px;
+    font-weight: bolder;
+    text-align: center;
+}
+.lists{
+    display: flex;
+    justify-content: space-between;
+    width: 90vw;
+    background-color: rgb(51, 49, 49);
+    height: 40px;
+    font-size: 30px;
+    padding: 20px;
+    margin-bottom: 11px;
+}
+.fifth01{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.fifth02{
+    text-align: center;
+    padding: 20px 0px 40px 0px;
+}
+
+.fifth02> input{
+    background-color: black;
+    border: 1px solid gray;
+    border-radius: 3px;
+    font-size: 18px;
+    color: rgb(181, 175, 175);
+    padding: 13px 40px 13px 10px;
+    width: 230px;
+}
+
+.fifth02> button{
+    background-color: red;
+    border-radius: 4px;
+    border: none;
+    color: white;
+    font-size: 20px;
+    padding: 11px;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    width: 90vw;
+
+}
+.number{
+    margin-top: 30px;
+    color: white;
+}
+.footlinks ul{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    
+}
+.footer_li{
+    list-style: none;
+    width: 130px;
+    color: white;
+}
+.end{
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    font-weight: 100;
+}
+
+a:link {
+    color: rgb(229, 221, 221);
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: rgb(229, 221, 221);
+    background-color: transparent;
+    text-decoration: underline;
+}
+    
+
+
+
+
+@media screen and (max-width:800px) {
+   
+    .first {
+        flex-wrap: wrap;
+    }
+}
+@media screen and (max-width:530px) {
+
+    .main{
+        height: 744px;
+    }
+    .main .box0{
+        height: 744px;
+    }
+
+    .headtext> div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+       
+   }
+
+   .lists{
+    width: 80vw;
+   }
+
+    .footlinks ul{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .lists{
+        font-size: 22px;
+    }
+    
+    .first01{
+        font-size: 35px;
+    }
+    .first02{
+        font-size: 15px;
+    }
+
+    .image3{
+        position: relative;
+        width: 350px;
+    }
+    .image3 video{
+        top: 45px;
+        right: 32px;
+        width: 240px;
+        height: 100px;
+        position: absolute;
+    }
+
+    .image1 img{
+        width: 350px;
+        z-index: 10;
+    }
+    .image1 video{
+        top: 61px;
+        right: 7px;
+        width: 320px;
+    }
+}
+
+@media screen and (max-width:530px){
+    .footlinks ul{
+        grid-template-columns: 1fr 1fr;
+    }
+}
